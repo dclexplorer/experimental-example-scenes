@@ -1,0 +1,19 @@
+{
+  "name": "gltf-extended-arissa",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "sdk-commands start",
+    "deploy": "sdk-commands deploy",
+    "build": "sdk-commands build"
+  },
+  "devDependencies": {
+    "@dcl/sdk": "protocol-squad",
+    "@dcl/js-runtime": "protocol-squad",
+    "@dcl/sdk-commands": "protocol-squad"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=6.0.0"
+  }
+}

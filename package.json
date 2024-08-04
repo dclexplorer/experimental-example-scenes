@@ -1,0 +1,31 @@
+{
+  "name": "experimental-example-scenes",
+  "description": "Example scenes for experimental features developed by Protocol Squad",
+  "author": {
+    "name": "Lean - Protocol Squad"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "@dcl/sdk": "protocol-squad",
+    "@dcl/js-runtime": "protocol-squad",
+    "@dcl/sdk-commands": "protocol-squad"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "singleQuote": true,
+    "printWidth": 120,
+    "semi": false
+  },
+  "private": true,
+  "scripts": {
+    "build": "sdk-commands build --skip-install",
+    "export-static": "sdk-commands export-static",
+    "start": "sdk-commands start"
+  },
+  "workspaces": [
+    "gltf-extended-puffer",
+    "gltf-extended-arissa",
+    "gltf-extended-rollercoaster",
+    "gltf-extended-vannah"
+  ]
+}

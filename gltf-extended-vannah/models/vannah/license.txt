@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vannah_ Room
+* source:	https://sketchfab.com/3d-models/vannah--room-a057b605d3674820ac12fafa15505b1d
+* author:	gato2.03d (https://sketchfab.com/gat2.03d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vannah_ Room" (https://sketchfab.com/3d-models/vannah--room-a057b605d3674820ac12fafa15505b1d) by gato2.03d (https://sketchfab.com/gat2.03d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
