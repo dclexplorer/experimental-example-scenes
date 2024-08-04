@@ -29,15 +29,15 @@ async function init(): Promise<void> {
 		states: [
 			{
 				clip: gltf.animationNames[0],
-				playing: false,
-				speed: 0.0,
+				playing: true,
+				speed: 0.2,
 			}
 		]
 	})
 
 	// We search for the head entity in the GLTF node paths, if you created the GLTF you should know the path of the head entity
 	//	in this case I've opened the GLB file in Blender and I know the path of the head entity (at least I know the first part of the path)
-	const head = gltf.nodePaths.filter((node) => node.includes('Suzanne_Material_001_0'))
+	const head = gltf.nodePaths.filter((node) => node.includes('_1_Material_001_0'))
 	assert(head.length > 0)
 
 	const headEntity = engine.addEntity()
@@ -48,7 +48,11 @@ async function init(): Promise<void> {
 	// Once the head entity is loaded, the Transform is being updated by the GLTF system, so we can get the position and rotation of the head entity
 	// 	also we can attach a camera to the head entity to follow the roller coaster
 	const attachedEntity = engine.addEntity()
-	Transform.create(attachedEntity, { parent: headEntity })
+	Transform.create(attachedEntity, {
+		position: Vector3.create(0, 0, -2.5),
+		rotation: Quaternion.fromEulerDegrees(-90, 0, 0),
+		parent: headEntity 
+	})
 
 	const cameraArea = engine.addEntity()
 	CameraModeArea.create(cameraArea, {
@@ -57,6 +61,8 @@ async function init(): Promise<void> {
 		cinematicSettings: {
 			cameraEntity: attachedEntity,
 			allowManualRotation: true,
+			zoomMax: 1.0,
+			zoomMin: 1.0
 		}
 	})
 
