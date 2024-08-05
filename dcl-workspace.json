@@ -1,19 +1,25 @@
 {
   "folders": [
     {
-      "path": "gltf-extended-puffer"
+      "path": "scrollable-ui"
     },
     {
-      "path": "gltf-extended-arissa"
+      "path": "gltf-extended-vannah"
     },
     {
       "path": "gltf-extended-rollercoaster"
     },
     {
+      "path": "gltf-extended-puffer"
+    },
+    {
       "path": "gltf-extended-mesh-video"
     },
     {
-      "path": "gltf-extended-vannah"
+      "path": "gltf-extended-arissa"
+    },
+    {
+      "path": "cinematic-camera"
     }
   ]
 }

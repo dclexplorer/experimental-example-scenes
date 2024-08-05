@@ -20,13 +20,16 @@
   "scripts": {
     "build": "sdk-commands build --skip-install",
     "export-static": "sdk-commands export-static",
-    "start": "sdk-commands start"
+    "start": "sdk-commands start",
+    "update-parcels": "node scripts/checkParcelsCollision.js"
   },
   "workspaces": [
-    "gltf-extended-puffer",
+    "cinematic-camera",
     "gltf-extended-arissa",
-    "gltf-extended-rollercoaster",
     "gltf-extended-mesh-video",
-    "gltf-extended-vannah"
+    "gltf-extended-puffer",
+    "gltf-extended-rollercoaster",
+    "gltf-extended-vannah",
+    "scrollable-ui"
   ]
 }

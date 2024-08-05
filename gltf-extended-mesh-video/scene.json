@@ -2,7 +2,7 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "SDK7 Scene Template",
+    "title": "gltf-extended-mesh-video",
     "description": "template scene with SDK7",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
@@ -16,10 +16,10 @@
   "tags": [],
   "scene": {
     "parcels": [
-      "-1,0",
-      "-1,1"
+      "-2,0",
+      "-2,1"
     ],
-    "base": "-1,0"
+    "base": "-2,0"
   },
   "spawnPoints": [
     {
@@ -57,5 +57,6 @@
   "featureToggles": {
     "voiceChat": "enabled",
     "portableExperiences": "enabled"
-  }
+  },
+  "name": "gltf-extended-mesh-video"
 }
