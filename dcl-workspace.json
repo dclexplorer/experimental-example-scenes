@@ -4,6 +4,12 @@
       "path": "scrollable-ui"
     },
     {
+      "path": "lights"
+    },
+    {
+      "path": "in-world-ui"
+    },
+    {
       "path": "gltf-extended-vannah"
     },
     {
