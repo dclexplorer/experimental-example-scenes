@@ -30,6 +30,8 @@
     "gltf-extended-puffer",
     "gltf-extended-rollercoaster",
     "gltf-extended-vannah",
+    "in-world-ui",
+    "lights",
     "scrollable-ui"
   ]
 }
