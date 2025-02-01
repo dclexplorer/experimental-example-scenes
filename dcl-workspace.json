@@ -4,6 +4,9 @@
       "path": "scrollable-ui"
     },
     {
+      "path": "render-to-texture"
+    },
+    {
       "path": "lights"
     },
     {
@@ -23,6 +26,9 @@
     },
     {
       "path": "gltf-extended-arissa"
+    },
+    {
+      "path": "drag-pointers"
     },
     {
       "path": "cinematic-camera"

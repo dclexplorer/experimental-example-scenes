@@ -25,6 +25,7 @@
   },
   "workspaces": [
     "cinematic-camera",
+    "drag-pointers",
     "gltf-extended-arissa",
     "gltf-extended-mesh-video",
     "gltf-extended-puffer",
@@ -32,6 +33,7 @@
     "gltf-extended-vannah",
     "in-world-ui",
     "lights",
+    "render-to-texture",
     "scrollable-ui"
   ]
 }
